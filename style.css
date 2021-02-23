@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+}
+.one{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0px;
+    
+}
+.two{
+    text-align: center;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    
+    
+    height: 100%;
+
+    background-position: center;
+    background-image: url(img/img-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.two span{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#about{
+    background-color: rgb(165, 52, 83);
+    color: wheat;
+    padding: 0px;
+   
+}
+.three{
+    margin: 0px;
+    padding: 0px;
+}
+#about header{
+    background-color:wheat;
+    color:  rgb(165, 52, 83);
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.container #about{
+    margin: 0px;
+    padding: 0px;
+}
+#three{
+    padding: 0px 50px;
+    text-align: justify;
+}
+#menu{
+    object-fit: fill;
+    
+}
+@media (max-width: 768px){
+    table #tab{
+        display: none;
+    }
+}
+#menu header{
+    background-color: rgb(165, 52, 83);
+    color: wheat;
+    padding: 0px;
+    text-align: center;
+}
+.four{
+    padding: 0px;
+    margin: 0px;
+}
+#contact{
+    background-color: rgb(165, 52, 83);
+    color: wheat;
+    padding: 0px;
+}
+#contact header{
+    background-color:wheat;
+    color:  rgb(165, 52, 83);
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+#contact a{
+    color: wheat;
+    text-decoration: none;
+}
+#menu td{
+    padding: 10px;
+}
+#menu img:hover{
+    transform: scale(4);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
